@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>Helena Gvozdenovic - Senior Marketing Professional | Events, Digital & Brand</title>
+<meta name="description" content="Helena Gvozdenovic - senior marketing professional with 15+ years across events, digital campaigns, brand and content. Experience spanning Property Council of Australia, ACCA, Sony Music and founder of a scaled pet care business.">
+<meta name="author" content="Helena Gvozdenovic">
+
+<!-- Open Graph for nice link previews -->
+<meta property="og:title" content="Helena Gvozdenovic - Senior Marketing Professional">
+<meta property="og:description" content="15+ years across events, digital campaigns, brand and content. Marketing Co-Ordinator at Property Council of Australia. Founder of a scaled pet care business.">
+<meta property="og:type" content="profile">
+
+<!-- Structured data: helps AI/ATS parsers read this as a person/CV -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Helena Gvozdenovic",
+  "alternateName": "Helena Abel",
+  "jobTitle": "Senior Marketing Professional",
+  "email": "helenaabel@hotmail.co.uk",
+  "telephone": "+61434027772",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Freshwater",
+    "addressRegion": "NSW",
+    "postalCode": "2096",
+    "addressCountry": "AU"
+  },
+  "knowsAbout": ["Marketing", "Event Management", "Digital Campaigns", "Brand Management", "Content Creation", "Social Media Management", "Email Marketing", "CRM", "Video Production", "Stakeholder Management", "Team Leadership", "Generative AI"],
+  "alumniOf": {
+    "@type": "EducationalOrganisation",
+    "name": "The Academy of Contemporary Music, Guildford"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Property Council of Australia"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ivory: #f6f3ec;
+    --ivory-deep: #ede8db;
+    --ink: #2b2e26;
+    --ink-soft: #4a4e42;
+    --ink-faint: #767a6c;
+    --sage: #6f8567;
+    --sage-deep: #54664e;
+    --sage-pale: #dde4d6;
+    --line: #d8d3c4;
+    --card: #fffdf7;
+    --shadow: rgba(43, 46, 38, 0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--ivory);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* subtle paper grain */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    z-index: 1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  }
+
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 28px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ---------- HERO ---------- */
+  header {
+    padding: 78px 0 46px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .eyebrow {
+    font-size: 0.74rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: rise 0.7s ease 0.1s forwards;
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.9rem, 8vw, 4.6rem);
+    line-height: 1.02;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    margin-bottom: 18px;
+    opacity: 0;
+    animation: rise 0.7s ease 0.22s forwards;
+  }
+
+  .tagline {
+    font-size: clamp(1.05rem, 2.4vw, 1.32rem);
+    color: var(--ink-soft);
+    max-width: 620px;
+    font-weight: 400;
+    opacity: 0;
+    animation: rise 0.7s ease 0.34s forwards;
+  }
+
+  .tagline strong { color: var(--ink); font-weight: 600; }
+
+  .contact-bar {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    font-size: 0.9rem;
+    opacity: 0;
+    animation: rise 0.7s ease 0.46s forwards;
+  }
+
+  .contact-bar a, .contact-bar span {
+    color: var(--ink-soft);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .contact-bar a:hover { color: var(--sage); }
+
+  .contact-bar .dot {
+    width: 4px; height: 4px; border-radius: 50%;
+    background: var(--line);
+  }
+
+  /* ---------- STAT STRIP ---------- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin: 46px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0;
+    animation: rise 0.7s ease 0.58s forwards;
+  }
+
+  .stat {
+    background: var(--card);
+    padding: 26px 20px;
+    text-align: center;
+  }
+
+  .stat .num {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.7rem, 4.5vw, 2.5rem);
+    font-weight: 600;
+    color: var(--sage-deep);
+    line-height: 1;
+    display: block;
+  }
+
+  .stat .label {
+    font-size: 0.76rem;
+    color: var(--ink-faint);
+    margin-top: 8px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ---------- SECTIONS ---------- */
+  section { padding: 40px 0; }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 30px;
+  }
+
+  .section-head h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .section-head .rule {
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+  }
+
+  .section-head .count {
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+  }
+
+  .lead {
+    font-size: 1.06rem;
+    color: var(--ink-soft);
+    max-width: 660px;
+  }
+
+  .lead + .lead { margin-top: 14px; }
+
+  /* ---------- ROLE CARDS ---------- */
+  .role {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    transition: box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .role:hover { box-shadow: 0 8px 28px var(--shadow); border-color: #cdc7b5; }
+
+  .role-head {
+    padding: 22px 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    user-select: none;
+  }
+
+  .role-head .meta { flex: 1; min-width: 0; }
+
+  .role-head .title-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+  }
+
+  .role-head h3 {
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .role-head .company {
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: var(--sage-deep);
+  }
+
+  .role-head .sub {
+    font-size: 0.86rem;
+    color: var(--ink-faint);
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+
+  .role-head .toggle {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, background 0.25s ease, border-color 0.25s;
+    font-size: 0.9rem;
+    color: var(--sage);
+  }
+
+  .role.open .toggle {
+    transform: rotate(45deg);
+    background: var(--sage-pale);
+    border-color: var(--sage-pale);
+  }
+
+  .role-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+
+  .role.open .role-body { max-height: 1400px; }
+
+  .role-body-inner {
+    padding: 0 24px 24px;
+    border-top: 1px solid var(--line);
+    margin-top: -1px;
+  }
+
+  .role-body-inner > .intro {
+    font-size: 0.96rem;
+    color: var(--ink-soft);
+    padding: 18px 0 6px;
+  }
+
+  .achievements {
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .achievements li {
+    font-size: 0.93rem;
+    color: var(--ink-soft);
+    padding-left: 22px;
+    position: relative;
+  }
+
+  .achievements li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 9px;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--sage);
+  }
+
+  .achievements li strong { color: var(--ink); font-weight: 600; }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 18px;
+  }
+
+  .tag {
+    font-size: 0.74rem;
+    background: var(--ivory-deep);
+    color: var(--ink-soft);
+    padding: 4px 11px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+  }
+
+  /* ---------- SKILLS ---------- */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .skill-block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+
+  .skill-block h4 {
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .skill-block p {
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- EDUCATION ---------- */
+  .edu-grid { display: grid; gap: 12px; }
+
+  .edu-item {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+
+  .edu-item h4 { font-size: 1rem; font-weight: 600; }
+  .edu-item .edu-sub { font-size: 0.86rem; color: var(--ink-faint); margin-top: 3px; }
+  .edu-item .edu-list {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .edu-item .edu-list span {
+    font-size: 0.78rem;
+    background: var(--ivory-deep);
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+    padding: 4px 11px;
+    border-radius: 20px;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    padding: 50px 0 90px;
+    border-top: 1px solid var(--line);
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  footer .foot-name {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  footer p { color: var(--ink-faint); font-size: 0.9rem; }
+
+  footer .foot-links {
+    margin-top: 18px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  footer .foot-links a {
+    color: var(--sage-deep);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  footer .foot-links a:hover { text-decoration: underline; }
+
+  /* ---------- PRINT BUTTON ---------- */
+  .print-btn {
+    position: fixed;
+    top: 22px; right: 22px;
+    z-index: 50;
+    background: var(--ink);
+    color: var(--ivory);
+    border: none;
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 16px var(--shadow);
+    transition: transform 0.2s ease, background 0.2s;
+  }
+  .print-btn:hover { transform: translateY(-1px); background: var(--sage-deep); }
+
+  /* ---------- ASK-THE-CV AGENT ---------- */
+  .agent-fab {
+    position: fixed;
+    bottom: 24px; right: 24px;
+    z-index: 60;
+    width: 58px; height: 58px;
+    border-radius: 50%;
+    background: var(--sage-deep);
+    color: var(--ivory);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 22px rgba(43,46,38,0.22);
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.25s ease;
+  }
+  .agent-fab:hover { transform: scale(1.06); }
+  .agent-fab svg { width: 26px; height: 26px; }
+
+  .agent-panel {
+    position: fixed;
+    bottom: 94px; right: 24px;
+    z-index: 60;
+    width: 360px;
+    max-width: calc(100vw - 48px);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 0 16px 50px rgba(43,46,38,0.22);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .agent-panel.open { display: flex; }
+
+  .agent-header {
+    background: var(--sage-deep);
+    color: var(--ivory);
+    padding: 16px 18px;
+  }
+  .agent-header .ah-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+  .agent-header .ah-sub {
+    font-size: 0.78rem;
+    opacity: 0.8;
+    margin-top: 2px;
+  }
+
+  .agent-messages {
+    padding: 16px;
+    height: 320px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--ivory);
+  }
+
+  .msg {
+    font-size: 0.88rem;
+    padding: 10px 13px;
+    border-radius: 12px;
+    max-width: 86%;
+    line-height: 1.5;
+  }
+  .msg-bot {
+    background: var(--card);
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+    align-self: flex-start;
+    border-bottom-left-radius: 3px;
+  }
+  .msg-user {
+    background: var(--sage-deep);
+    color: var(--ivory);
+    align-self: flex-end;
+    border-bottom-right-radius: 3px;
+  }
+  .msg-bot strong { color: var(--ink); }
+  .msg-bot ul { margin: 6px 0 0 16px; }
+  .msg-bot li { margin: 3px 0; }
+  .msg-bot .num { color: var(--sage-deep); font-weight: 600; }
+
+  .agent-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0 16px 12px;
+    background: var(--ivory);
+  }
+  .suggestion {
+    font-size: 0.76rem;
+    background: var(--card);
+    border: 1px solid var(--line);
+    color: var(--sage-deep);
+    padding: 5px 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .suggestion:hover { background: var(--sage-pale); }
+
+  .agent-input-row {
+    display: flex;
+    border-top: 1px solid var(--line);
+    background: var(--card);
+  }
+  .agent-input-row input {
+    flex: 1;
+    border: none;
+    padding: 13px 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    background: transparent;
+    color: var(--ink);
+    outline: none;
+  }
+  .agent-input-row button {
+    border: none;
+    background: var(--sage-deep);
+    color: var(--ivory);
+    padding: 0 18px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .typing { display: flex; gap: 4px; padding: 4px 0; }
+  .typing span {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--ink-faint);
+    animation: blink 1.2s infinite;
+  }
+  .typing span:nth-child(2) { animation-delay: 0.2s; }
+  .typing span:nth-child(3) { animation-delay: 0.4s; }
+
+  /* ---------- ANIMATIONS ---------- */
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes blink {
+    0%, 60%, 100% { opacity: 0.25; }
+    30% { opacity: 1; }
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 640px) {
+    .wrap { padding: 0 20px; }
+    header { padding: 56px 0 36px; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .skills-grid { grid-template-columns: 1fr; }
+    .role-head { padding: 18px 18px; gap: 12px; }
+    .role-body-inner { padding: 0 18px 20px; }
+    .print-btn { top: 14px; right: 14px; padding: 8px 14px; font-size: 0.76rem; }
+    .agent-panel { bottom: 86px; right: 16px; }
+    .agent-fab { bottom: 18px; right: 18px; }
+  }
+
+  /* ---------- PRINT ---------- */
+  @media print {
+    body { background: #fff; font-size: 11pt; }
+    body::before { display: none; }
+    .print-btn, .agent-fab, .agent-panel { display: none !important; }
+    .wrap { max-width: 100%; padding: 0; }
+    header { padding: 0 0 20px; }
+    .role-body { max-height: none !important; }
+    .role-body-inner { border-top: 1px solid #ccc; }
+    .role, .skill-block, .edu-item { break-inside: avoid; box-shadow: none; }
+    .toggle { display: none; }
+    section { padding: 18px 0; }
+    .stats { animation: none; opacity: 1; }
+    .eyebrow, h1, .tagline, .contact-bar { animation: none; opacity: 1; }
+    footer { padding: 20px 0; }
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+
+<div class="wrap">
+
+  <!-- ============ HERO ============ -->
+  <header>
+    <div class="eyebrow">Senior Marketing Professional</div>
+    <h1>Helena<br>Gvozdenovic</h1>
+    <p class="tagline">
+      <strong>15+ years</strong> across events, digital campaigns, brand and content - from London record labels and global membership bodies to founding and scaling her own business. A connector who <strong>gets things done</strong> and brings teams with her.
+    </p>
+    <div class="contact-bar">
+      <a href="mailto:helenaabel@hotmail.co.uk">✉ helenaabel@hotmail.co.uk</a>
+      <span class="dot"></span>
+      <a href="tel:+61434027772">☏ 0434 027 772</a>
+      <span class="dot"></span>
+      <span>📍 Freshwater, NSW 2096</span>
+    </div>
+  </header>
+
+  <!-- ============ STAT STRIP ============ -->
+  <div class="stats">
+    <div class="stat">
+      <span class="num">15+</span>
+      <span class="label">Years in marketing &amp; events</span>
+    </div>
+    <div class="stat">
+      <span class="num">100+</span>
+      <span class="label">Clients built as founder</span>
+    </div>
+    <div class="stat">
+      <span class="num">50+</span>
+      <span class="label">Events delivered per year</span>
+    </div>
+    <div class="stat">
+      <span class="num">350+</span>
+      <span class="label">Courses &amp; conferences run</span>
+    </div>
+  </div>
+
+  <!-- ============ PROFILE ============ -->
+  <section id="profile">
+    <div class="section-head">
+      <h2>Profile</h2>
+      <div class="rule"></div>
+    </div>
+    <p class="lead">
+      A creative, detail-oriented marketer with a rare blend of hands-on delivery and ownership experience. Helena has run events at scale for global membership organisations, built and led marketing for a fast-growing membership body, and founded, scaled and sold the operation of her own business - owning everything from P&amp;L to brand to a team of four.
+    </p>
+    <p class="lead">
+      She is known for being reliable, easy to work with and someone who naturally brings people together. Strong across digital and content as well as live events, she is now looking to step into a more senior role with greater responsibility and scope.
+    </p>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <div class="rule"></div>
+      <div class="count">9 roles</div>
+    </div>
+
+    <!-- Property Council - OPEN by default -->
+    <div class="role open">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Marketing Co-Ordinator,</h3>
+            <span class="company">Property Council of Australia</span>
+          </div>
+          <div class="sub">
+            <span>Sydney</span><span>·</span><span>Sep 2024 - Present</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Marketing delivery across design, digital, content and events for Australia's leading property industry advocacy body - spanning internal teams and external members.</p>
+          <ul class="achievements">
+            <li><strong>Design leadership:</strong> Led a company-wide refresh of onsite event assets, rolled out in 2026, earning positive feedback from internal teams and external audiences for a more polished, visually engaging look.</li>
+            <li><strong>Process &amp; stakeholders:</strong> Implemented timelines and policy for design delivery, improving coordination across internal teams and external partners.</li>
+            <li><strong>Learning &amp; development:</strong> Delivered Canva training across state teams, improving efficiency and reducing design turnaround times.</li>
+            <li><strong>Content:</strong> Created scheduled, optimised social content across platforms, keeping tone and messaging consistent across campaigns.</li>
+            <li><strong>Video:</strong> Produced video content end-to-end - scripting through to editing - supporting both advocacy and commercial activity.</li>
+            <li><strong>Campaigns &amp; CRM:</strong> Built and delivered email campaigns, managed CRM segmentation, and tracked performance to support engagement and retention.</li>
+            <li><strong>Website:</strong> Managed website updates and structure, improving usability based on analytics and stakeholder feedback.</li>
+            <li><strong>Culture:</strong> Active on the social committee, organising annual celebrations and charity initiatives.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Design Leadership</span>
+            <span class="tag">Canva</span>
+            <span class="tag">Email Campaigns</span>
+            <span class="tag">CRM Segmentation</span>
+            <span class="tag">Video Production</span>
+            <span class="tag">Social Content</span>
+            <span class="tag">Website Management</span>
+            <span class="tag">Stakeholder Coordination</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pet 360 -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Marketing Co-Ordinator,</h3>
+            <span class="company">Pet 360</span>
+          </div>
+          <div class="sub">
+            <span>Sydney</span><span>·</span><span>Mar 2023 - Aug 2023</span><span>·</span><span>6-month contract</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Multi-channel marketing delivery for a pet retail and services brand across social, campaigns, events and web.</p>
+          <ul class="achievements">
+            <li><strong>Social media:</strong> Generated performance metrics reports and crafted engaging content for Instagram, Facebook and TikTok.</li>
+            <li><strong>Campaigns:</strong> Designed multi-channel campaigns - EDMs, ads and SMS - to reach target audiences effectively.</li>
+            <li><strong>Events:</strong> Organised activations including The Dog Lovers Festival to grow brand awareness.</li>
+            <li><strong>Website:</strong> Maintained website functionality, user experience and booking systems.</li>
+            <li><strong>Brand integrity:</strong> Kept marketing collateral consistent, upholding brand standards and client privacy.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Social Media Management</span>
+            <span class="tag">EDM</span>
+            <span class="tag">SMS Marketing</span>
+            <span class="tag">Paid Ads</span>
+            <span class="tag">Event Activation</span>
+            <span class="tag">Performance Reporting</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eastbound Hounds -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>CEO &amp; Co-Founder,</h3>
+            <span class="company">Eastbound Hounds</span>
+          </div>
+          <div class="sub">
+            <span>Sydney</span><span>·</span><span>Sep 2017 - Feb 2023</span><span>·</span><span>5.5 years</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Founded, scaled and ran a pet care business across Sydney's Eastern Suburbs - owning brand, operations, P&amp;L and team.</p>
+          <ul class="achievements">
+            <li><strong>Business growth:</strong> Built the business to <span style="color:var(--sage-deep);font-weight:600">100+ active clients</span>, with a loyal customer base, strong social presence and consistent 5-star Google reviews.</li>
+            <li><strong>Brand &amp; marketing:</strong> Spotted a gap in the local market and created a distinctive, personality-led brand - working with a graphic designer on logo development and delivering consistent messaging across digital, social and offline channels.</li>
+            <li><strong>Operations &amp; ownership:</strong> Managed the business end-to-end - P&amp;L, invoicing, payroll, scheduling and customer service - with 24/7 client availability and hands-on problem-solving.</li>
+            <li><strong>Team leadership:</strong> Recruited, trained and managed a team of four pet care attendants, overseeing daily operations and service standards.</li>
+            <li><strong>Community:</strong> Developed training initiatives and ran fundraising for local pet charities, strengthening community ties and brand reputation.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Founder</span>
+            <span class="tag">P&amp;L Ownership</span>
+            <span class="tag">Brand Development</span>
+            <span class="tag">Team Leadership</span>
+            <span class="tag">Operations</span>
+            <span class="tag">Customer Experience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Executive Connection -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Member Engagement Specialist,</h3>
+            <span class="company">The Executive Connection</span>
+          </div>
+          <div class="sub">
+            <span>Sydney</span><span>·</span><span>Nov 2016 - Aug 2017</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Owned the end-to-end member experience for a C-suite peer network.</p>
+          <ul class="achievements">
+            <li>Managed customer experience, retention, onboarding and exit interviews for C-suite members.</li>
+            <li>Built trusted relationships with senior executives, handling engagement with discretion and care.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Member Retention</span>
+            <span class="tag">Onboarding</span>
+            <span class="tag">Customer Experience</span>
+            <span class="tag">Stakeholder Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACCA Europe & America -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Events Manager,</h3>
+            <span class="company">ACCA Europe &amp; America</span>
+          </div>
+          <div class="sub">
+            <span>London</span><span>·</span><span>Jan 2014 - Oct 2016</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Owned the events programme across two regions for a global accountancy body.</p>
+          <ul class="achievements">
+            <li><strong>Scale:</strong> Delivered <span style="color:var(--sage-deep);font-weight:600">50+ online and in-person events annually</span>, managing budgets end-to-end.</li>
+            <li><strong>Marketing:</strong> Led targeted marketing campaigns to drive attendance and engagement.</li>
+            <li><strong>Negotiation:</strong> Negotiated with venues and suppliers to maximise value and quality.</li>
+            <li><strong>Relationships:</strong> Built strong relationships with members and speakers to ensure high-impact, well-executed events.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Event Management</span>
+            <span class="tag">Budget Ownership</span>
+            <span class="tag">Supplier Negotiation</span>
+            <span class="tag">Campaign Marketing</span>
+            <span class="tag">Speaker Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACCA UK -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Events Organiser,</h3>
+            <span class="company">ACCA UK</span>
+          </div>
+          <div class="sub">
+            <span>London</span><span>·</span><span>Oct 2010 - Dec 2013</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">High-volume events delivery for the UK arm of a global accountancy body.</p>
+          <ul class="achievements">
+            <li><strong>Volume:</strong> Organised <span style="color:var(--sage-deep);font-weight:600">300+ courses and conferences</span>.</li>
+            <li>Coordinated exhibition stands, team-building events and charity activities.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Event Delivery</span>
+            <span class="tag">Logistics</span>
+            <span class="tag">Exhibitions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AELTC -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Reservations Manager,</h3>
+            <span class="company">The All England Lawn Tennis Club</span>
+          </div>
+          <div class="sub">
+            <span>London</span><span>·</span><span>Wimbledon seasons 2009 &amp; 2010</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Managed dining and accommodation logistics during one of the world's largest sporting events.</p>
+          <ul class="achievements">
+            <li>Managed high-volume restaurant bookings during The Championships, coordinating dining and accommodation for <span style="color:var(--sage-deep);font-weight:600">up to 1,000 guests daily</span>.</li>
+            <li>Led and delegated tasks to two reservations assistants, working long hours under intense pressure.</li>
+            <li>Built resilience and exceptional organisation in a fast-paced, high-stakes environment.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">High-Volume Operations</span>
+            <span class="tag">Logistics</span>
+            <span class="tag">Team Delegation</span>
+            <span class="tag">Pressure Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nestle -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Sales &amp; Marketing Assistant,</h3>
+            <span class="company">Nestlé</span>
+          </div>
+          <div class="sub">
+            <span>Sydney</span><span>·</span><span>Dec 2009 - Feb 2010</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Supported sales and marketing teams at a global FMCG business.</p>
+          <ul class="achievements">
+            <li>Supported campaign coordination, event delivery and day-to-day admin.</li>
+            <li>Managed website updates, prepared presentations and liaised with internal and external stakeholders to keep projects on brand and on track.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Campaign Support</span>
+            <span class="tag">FMCG</span>
+            <span class="tag">Stakeholder Liaison</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sony Music -->
+    <div class="role">
+      <div class="role-head" onclick="toggleRole(this)">
+        <div class="meta">
+          <div class="title-line">
+            <h3>Artist Management &amp; Agency Assistant,</h3>
+            <span class="company">Sony Music Entertainment</span>
+          </div>
+          <div class="sub">
+            <span>London</span><span>·</span><span>Jan 2007 - Feb 2009</span>
+          </div>
+        </div>
+        <div class="toggle">+</div>
+      </div>
+      <div class="role-body">
+        <div class="role-body-inner">
+          <p class="intro">Started her career at a major record label in a highly competitive role, working closely with high-profile clients.</p>
+          <ul class="achievements">
+            <li>Coordinated day-to-day activity across the booking agency and management departments.</li>
+            <li>Liaised with promoters, venues and artists to support tour logistics, schedule performances and ensure seamless execution of live events.</li>
+            <li>Developed strong communication skills and a calm, solutions-based approach under pressure.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Artist Management</span>
+            <span class="tag">Tour Logistics</span>
+            <span class="tag">Live Events</span>
+            <span class="tag">Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="section-head">
+      <h2>Capabilities</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h4>Marketing &amp; Content</h4>
+        <p>Multi-channel campaigns, EDM &amp; email marketing, social media management, content creation, video production (scripting to editing), copywriting, brand management.</p>
+      </div>
+      <div class="skill-block">
+        <h4>Events</h4>
+        <p>End-to-end event delivery online and in-person, budget ownership, venue &amp; supplier negotiation, exhibitions, activations, speaker management, high-volume logistics.</p>
+      </div>
+      <div class="skill-block">
+        <h4>Digital &amp; Data</h4>
+        <p>CRM segmentation &amp; reporting, website management &amp; UX, analytics-led optimisation, performance tracking, Google Ads &amp; Google Business.</p>
+      </div>
+      <div class="skill-block">
+        <h4>Leadership &amp; Operations</h4>
+        <p>Team recruitment &amp; management, P&amp;L ownership, process &amp; policy design, stakeholder coordination, training delivery, customer experience &amp; retention.</p>
+      </div>
+      <div class="skill-block">
+        <h4>Tools &amp; Systems</h4>
+        <p>Canva, Mailchimp, WordPress, Asana, SharePoint, Brandwatch, Linktree, Flickr, Google Ads, Google Business, Bluburry.</p>
+      </div>
+      <div class="skill-block">
+        <h4>AI &amp; Emerging Tech</h4>
+        <p>Generative AI in marketing workflows - ChatGPT, Google Gemini, Bing AI. Completed "Leveraging Generative AI" professional training.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education">
+    <div class="section-head">
+      <h2>Education &amp; Development</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-item">
+        <h4>BA (Hons) Contemporary Popular Music - 2:1</h4>
+        <div class="edu-sub">The Academy of Contemporary Music, Guildford, Surrey</div>
+      </div>
+      <div class="edu-item">
+        <h4>Professional Development</h4>
+        <div class="edu-sub">Selected courses, 2014 - 2026</div>
+        <div class="edu-list">
+          <span>Leveraging Generative AI</span>
+          <span>Effective Communication &amp; Assertiveness</span>
+          <span>Organisational Culture Change</span>
+          <span>Sponsorship Sales Training</span>
+          <span>Persuasive Writing</span>
+          <span>Mindfulness-Based Stress Reduction (8 wk)</span>
+          <span>Animal Care &amp; Pet Grooming Cert III</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="foot-name">Helena Gvozdenovic</div>
+    <p>Senior Marketing Professional · Events, Digital &amp; Brand · Sydney, NSW</p>
+    <div class="foot-links">
+      <a href="mailto:helenaabel@hotmail.co.uk">helenaabel@hotmail.co.uk</a>
+      <a href="tel:+61434027772">0434 027 772</a>
+    </div>
+  </footer>
+
+</div>
+
+<!-- ============ HIDDEN KEYWORD BLOCK (machine-readable for ATS / AI parsers) ============ -->
+<div aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;">
+  Helena Gvozdenovic Helena Abel senior marketing professional marketing manager marketing coordinator
+  events manager event management digital marketing campaign management brand management content marketing
+  social media management email marketing EDM CRM segmentation video production copywriting marketing communications
+  stakeholder management team leadership P&amp;L management budget management supplier negotiation
+  WordPress Canva Mailchimp Asana SharePoint Brandwatch Google Ads generative AI ChatGPT Gemini
+  Sydney NSW Australia membership marketing not-for-profit advocacy FMCG live events artist management
+  customer retention onboarding member engagement analytics performance reporting website management.
+</div>
+
+<!-- ============ ASK-THE-CV AGENT ============ -->
+<button class="agent-fab" id="agentFab" onclick="toggleAgent()" aria-label="Ask the CV">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+  </svg>
+</button>
+
+<div class="agent-panel" id="agentPanel">
+  <div class="agent-header">
+    <div class="ah-title">Ask this CV</div>
+    <div class="ah-sub">Quick answers about Helena's experience</div>
+  </div>
+  <div class="agent-messages" id="agentMessages">
+    <div class="msg msg-bot">Hi - I can answer questions about Helena's background, experience and skills. Tap a suggestion below or type your own.</div>
+  </div>
+  <div class="agent-suggestions">
+    <div class="suggestion" onclick="askAgent('What is her current role?')">Current role</div>
+    <div class="suggestion" onclick="askAgent('Tell me about her events experience')">Events experience</div>
+    <div class="suggestion" onclick="askAgent('What about running her own business?')">Founder experience</div>
+    <div class="suggestion" onclick="askAgent('What are her digital and AI skills?')">Digital &amp; AI</div>
+    <div class="suggestion" onclick="askAgent('Why should we hire her?')">Why hire her</div>
+    <div class="suggestion" onclick="askAgent('How do I contact her?')">Contact</div>
+  </div>
+  <div class="agent-input-row">
+    <input type="text" id="agentInput" placeholder="Ask a question..." onkeydown="if(event.key==='Enter')sendAgent()">
+    <button onclick="sendAgent()">Send</button>
+  </div>
+</div>
+
+<script>
+  /* ---------- ROLE TOGGLE ---------- */
+  function toggleRole(head) {
+    head.parentElement.classList.toggle('open');
+  }
+
+  /* ---------- AGENT ---------- */
+  function toggleAgent() {
+    document.getElementById('agentPanel').classList.toggle('open');
+  }
+
+  var responses = [
+    { keywords: ['current','now','role','property council','latest','doing'],
+      answer: "<strong>Current role.</strong> Marketing Co-Ordinator at the <strong>Property Council of Australia</strong> since September 2024. She leads design refreshes, builds email campaigns and manages CRM segmentation, produces video end-to-end, runs social content and manages the website - plus she delivered Canva training across state teams." },
+    { keywords: ['event','events','wimbledon','acca','conference','organis'],
+      answer: "<strong>Events experience.</strong> Deep and proven. At <strong>ACCA</strong> she delivered <span class='num'>50+ events a year</span> across Europe &amp; America with full budget ownership, after organising <span class='num'>300+ courses and conferences</span> for ACCA UK. She also managed dining and accommodation for <span class='num'>up to 1,000 guests daily</span> during Wimbledon, and ran activations like The Dog Lovers Festival." },
+    { keywords: ['founder','business','own','ceo','eastbound','entrepreneur','scaled','start'],
+      answer: "<strong>Founder experience.</strong> She founded and ran <strong>Eastbound Hounds</strong> for 5.5 years, scaling it to <span class='num'>100+ active clients</span> across Sydney's Eastern Suburbs. She owned everything - P&amp;L, payroll, scheduling, brand, customer service - and recruited, trained and managed a team of four. Consistent 5-star Google reviews throughout." },
+    { keywords: ['digital','ai','content','social','video','crm','website','tools','tech'],
+      answer: "<strong>Digital &amp; AI.</strong> Strong across the digital stack: social media management, email/EDM campaigns, CRM segmentation, website management and analytics-led optimisation, plus end-to-end video production. She uses generative AI (ChatGPT, Gemini, Bing AI) in her workflows and completed formal 'Leveraging Generative AI' training. Tools: Canva, Mailchimp, WordPress, Asana, Brandwatch and more." },
+    { keywords: ['hire','why','strong','good','best','candidate','stand out'],
+      answer: "<strong>Why hire her.</strong> Rare mix of hands-on delivery and genuine ownership - she's run events at global scale, led marketing for a membership body, and founded and scaled her own business owning the P&amp;L. She's reliable, brings teams together, and is equally comfortable across events, digital and brand. Ready to step up into more senior scope." },
+    { keywords: ['contact','email','phone','reach','call','get in touch'],
+      answer: "<strong>Contact.</strong> Email <a href='mailto:helenaabel@hotmail.co.uk'>helenaabel@hotmail.co.uk</a> or call <a href='tel:+61434027772'>0434 027 772</a>. Based in Freshwater, NSW." },
+    { keywords: ['experience','background','career','history','summary','about'],
+      answer: "<strong>Career summary.</strong> 15+ years spanning marketing, events and brand. Started at <strong>Sony Music</strong> in London, ran high-volume events for <strong>ACCA</strong>, managed member engagement for a C-suite network, founded and scaled <strong>Eastbound Hounds</strong>, and is now Marketing Co-Ordinator at the <strong>Property Council of Australia</strong>." },
+    { keywords: ['team','lead','manage','leadership','people'],
+      answer: "<strong>Leadership.</strong> As founder of Eastbound Hounds she recruited, trained and managed a team of four. At Wimbledon she led and delegated to two reservations assistants under intense pressure. She's known for bringing people together and building positive team environments." },
+    { keywords: ['skills','capable','can do','strengths'],
+      answer: "<strong>Core skills.</strong> Multi-channel campaigns, EDM/email, social media, content and video, brand management, CRM, website &amp; UX, end-to-end event delivery, budget and supplier negotiation, team leadership and P&amp;L ownership - plus generative AI in marketing workflows." },
+    { keywords: ['education','study','degree','qualif','university','course'],
+      answer: "<strong>Education.</strong> BA (Hons) Contemporary Popular Music, 2:1, from The Academy of Contemporary Music, Guildford. Ongoing professional development including Leveraging Generative AI, Persuasive Writing, Sponsorship Sales Training and Organisational Culture Change." },
+    { keywords: ['location','where','based','sydney','relocat'],
+      answer: "<strong>Location.</strong> Based in Freshwater on Sydney's Northern Beaches, NSW 2096." }
+  ];
+
+  var fallback = "I can answer questions about:<ul><li>Her current role and career history</li><li>Events experience</li><li>Founding and scaling her own business</li><li>Digital, content and AI skills</li><li>Leadership and team management</li><li>Education and development</li><li>Contact details</li></ul>What would you like to know?";
+
+  function findResponse(query) {
+    var q = query.toLowerCase();
+    for (var i = 0; i < responses.length; i++) {
+      var r = responses[i];
+      for (var j = 0; j < r.keywords.length; j++) {
+        if (q.indexOf(r.keywords[j]) !== -1) return r.answer;
+      }
+    }
+    return fallback;
+  }
+
+  function addMsg(text, isUser) {
+    var box = document.getElementById('agentMessages');
+    var m = document.createElement('div');
+    m.className = 'msg ' + (isUser ? 'msg-user' : 'msg-bot');
+    m.innerHTML = text;
+    box.appendChild(m);
+    box.scrollTop = box.scrollHeight;
+  }
+
+  function showTyping() {
+    var box = document.getElementById('agentMessages');
+    var t = document.createElement('div');
+    t.className = 'msg msg-bot';
+    t.id = 'typing-indicator';
+    t.innerHTML = '<div class="typing"><span></span><span></span><span></span></div>';
+    box.appendChild(t);
+    box.scrollTop = box.scrollHeight;
+  }
+
+  function removeTyping() {
+    var t = document.getElementById('typing-indicator');
+    if (t) t.remove();
+  }
+
+  function askAgent(question) {
+    document.getElementById('agentInput').value = question;
+    sendAgent();
+  }
+
+  function sendAgent() {
+    var input = document.getElementById('agentInput');
+    var q = input.value.trim();
+    if (!q) return;
+    addMsg(q, true);
+    input.value = '';
+    showTyping();
+    setTimeout(function() {
+      removeTyping();
+      addMsg(findResponse(q), false);
+    }, 450 + Math.random() * 400);
+  }
+</script>
+
+</body>
+</html>
